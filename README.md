@@ -65,12 +65,12 @@ La page d'accueil permet de se connecter à l'application. Les nouveaux utilisat
 
 Il y a deux rôles : `ADMIN` et `USER`. Les identifiants et mots de passe sont les suivants :
 1. Pour le rôle `ADMIN` : <br>
-&nbsp;&nbsp;* Identifiant : `admin`<br>
-&nbsp;&nbsp;* Mot de passe : `123`
+&nbsp;&nbsp;🔹 Identifiant : `admin`<br>
+&nbsp;&nbsp;🔹 Mot de passe : `123`
 
 2. Pour le rôle `USER` : <br>
-&nbsp;&nbsp;* Identifiant : `charles`<br>
-&nbsp;&nbsp;* Mot de passe : `123` 
+&nbsp;&nbsp;🔹 Identifiant : `charles`<br>
+&nbsp;&nbsp;🔹 Mot de passe : `123` 
 
 ### Page de gestion des produits
 La page de gestion des produits permet de visualiser, ajouter, modifier et supprimer des produits. Seul l'utilisateur ayant le rôle `ADMIN` peut ajouter, modifier ou supprimer des produits. Il est également possible de rechercher des produits par nom ou par catégorie.
