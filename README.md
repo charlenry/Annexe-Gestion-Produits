@@ -2,7 +2,7 @@
 
 Cette application permet de gérer des produits avec des accès sécurisés selon les rôles attribués à chaque utilisateur. Il y a un rôle `administrateur` et un rôle `utilisateur`. L'application a été développée dans le cadre du projet fil rouge d'une formation MOOC pour devenir `Développeur Full Stack Java Spring Boot 3 / Angular`. Elle est composée de trois parties : 
 
-1. Une partie `frontend` développée en Angular 17 [angular-gestion-produits](https://github.com/charlenry/Angular-Gestion-Produits),
+1. Une partie `frontend` développée en Angular 17 (voir [angular-gestion-produits](https://github.com/charlenry/Angular-Gestion-Produits)),
 2. Une partie `backend métier` connectée à une base de données MySQL qui permet de gérer les produits. Elle a été développée en Java avec Spring Boot 3 (voir le projet [spring-gestion-produits](https://github.com/charlenry/Spring-Gestion-Produits)),
 3. Une partie `backend IAM` **(Identity and Access Management)** connectée à une base de données MySQL qui gère les identités et les accès. Elle a été développée en Java avec Spring Boot 3 (voir le projet [spring-gestion-utilisateurs](https://github.com/charlenry/Spring-Gestion-Utilisateurs)).
 
@@ -23,7 +23,7 @@ Pour que l'application fonctionne correctement, il faut exécuter le serveur de 
 
 
 ### Partie backend métier
-1. Si vous utilisez `Spring Tool Suite` , importez le projet [spring-gestion-produits](https://github.com/charlenry/Spring-Gestion-Produits) à partir Git, fournissez l'URL du dépôt du projet et choisissez la branche `main` pour le faire fonctionner avec le projet [spring-gestion-utilisateurs](https://github.com/charlenry/Spring-Gestion-Utilisateurs). Sinon, choisissez la branche `secured_apis_with_keycloak_oauth2` pour le faire fonctionner avec Keycloak [Keycloak](https://www.keycloak.org/downloads).
+1. Si vous utilisez `Spring Tool Suite` , importez le projet [spring-gestion-produits](https://github.com/charlenry/Spring-Gestion-Produits) à partir Git, fournissez l'URL du dépôt du projet et choisissez la branche `main` pour le faire fonctionner avec le projet [spring-gestion-utilisateurs](https://github.com/charlenry/Spring-Gestion-Utilisateurs). Sinon, choisissez la branche `secured_apis_with_keycloak_oauth2` pour le faire fonctionner avec [Keycloak](https://www.keycloak.org/downloads).
 2. Lancez le projet en tant qu'application Spring Boot. L'application sera accessible à l'adresse `http://localhost:8080`.
 
 
@@ -65,12 +65,12 @@ La page d'accueil permet de se connecter à l'application. Les nouveaux utilisat
 
 Il y a deux rôles : `ADMIN` et `USER`. Les identifiants et mots de passe sont les suivants :
 1. Pour le rôle `ADMIN` : 
-  * Identifiant : `admin`
-  * Mot de passe : `123`
+&nbsp;&nbsp;* Identifiant : `admin`
+&nbsp;&nbsp;* Mot de passe : `123`
 
 2. Pour le rôle `USER` :
-  * Identifiant : `charles`
-  * Mot de passe : `123` 
+&nbsp;&nbsp;* Identifiant : `charles`
+&nbsp;&nbsp;* Mot de passe : `123` 
 
 ### Page de gestion des produits
 La page de gestion des produits permet de visualiser, ajouter, modifier et supprimer des produits. Seul l'utilisateur ayant le rôle `ADMIN` peut ajouter, modifier ou supprimer des produits. Il est également possible de rechercher des produits par nom ou par catégorie.
