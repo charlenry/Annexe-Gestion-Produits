@@ -64,12 +64,12 @@ La page d'accueil permet de se connecter à l'application. Les nouveaux utilisat
 2. Vous utilisez `Keycloak`. Dans ce cas, si vous avez importé le `realm` du projet, il est déjà préconfiguré pour fonctionner avec [MailHog](https://github.com/mailhog/MailHog/releases) que vous devez lancer. Mais vous pouvez configurer le serveur SMTP de votre choix. 
 
 Il y a deux rôles : `ADMIN` et `USER`. Les identifiants et mots de passe sont les suivants :
-1. Pour le rôle `ADMIN` : 
-&nbsp;&nbsp;* Identifiant : `admin`
+1. Pour le rôle `ADMIN` : <br>
+&nbsp;&nbsp;* Identifiant : `admin`<br>
 &nbsp;&nbsp;* Mot de passe : `123`
 
-2. Pour le rôle `USER` :
-&nbsp;&nbsp;* Identifiant : `charles`
+2. Pour le rôle `USER` : <br>
+&nbsp;&nbsp;* Identifiant : `charles`<br>
 &nbsp;&nbsp;* Mot de passe : `123` 
 
 ### Page de gestion des produits
