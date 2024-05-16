@@ -415,7 +415,7 @@
     } ],
     "disableableCredentialTypes" : [ ],
     "requiredActions" : [ ],
-    "realmRoles" : [ "ADMIN", "default-roles-charlenry-realm" ],
+    "realmRoles" : [ "ADMIN", "USER", "default-roles-charlenry-realm" ],
     "notBefore" : 0,
     "groups" : [ ]
   }, {
